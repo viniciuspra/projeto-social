@@ -55,22 +55,50 @@ main {
     background-position: center center;
 }
 
+.deco {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
 section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 370px;
-    width: 195px;
+    height: 400px;
+    width: 400px;
     background: url('../imagens/watching_img.png') center center no-repeat;
     background-size: contain;
 }
 
 iframe#tela {
     position: relative;
-    top: 10px;
-    left: 4px;
+    top: 11px;
+    left: 98px;
     border-radius: 7px;
-    width: 186px;
-    height: 355px;
+    width: 203px;
+    height: 383px;
+}
+
+section#redes-sociais {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+section#redes-sociais img {
+    width: 55px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px #fb858d54;
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 1.5px solid #FB858C;
+    box-shadow: 2px 2px 10px #fb858d69;
+    transform: translate(-3px, -6px);
+    transition: transform 0.5s, border 0.6s;
 }
