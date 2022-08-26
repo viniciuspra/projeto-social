@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+header {
+    height: 125px;
+    background-image: linear-gradient(to right, #ED7296, #ED939F, #ECB5A8);
+}
+
+.btn {
+    position: absolute;
+    height: 45px;
+    font-weight: bold;
+    color: white;
+    padding: 11px 16px;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 40px;
+    border-color: white;
+    background-color: transparent;
+    box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 12%);
+    font-size: 14px;
+    top: 40px;
+    right: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #EDAAA5;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+.wave {
+    display: block;
+    height: 300px;
+    background-color: #F6E8EC;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 370px;
+    width: 195px;
+    background: url('../imagens/watching_img.png') center center no-repeat;
+    background-size: contain;
+}
